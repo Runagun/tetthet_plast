@@ -19,7 +19,6 @@ let snakkeboble3;
 //SETUP --------------------------------------------------------- SETUP
 function setup() {
    createCanvas(800, 600);
-   background(100);
    
 //BILDER2 ------------------------------------------------------- BILDER2
 bakgrunn = loadImage('bakgrunn1.png');
