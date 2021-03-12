@@ -3,7 +3,7 @@
 //VARIABLER ----------------------------------------------------- VARIABLER
 let xAkse = 480;
 let yAkse = 320;
-let variantX = 65;
+let variantX = 67;
 let variantY = 180;
 let tetthet=1;
 
