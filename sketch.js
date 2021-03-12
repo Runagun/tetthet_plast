@@ -23,7 +23,7 @@ function setup() {
    
 //BILDER2 ------------------------------------------------------- BILDER2
 bakgrunn = loadImage("https://runagun.github.io/tetthet_plast/bakgrunn1.png");
-plastbit = loadImage("https://runagun.github.io/tetthet_plast/plastbit.png");
+plastbit = loadImage("https://github.com/Runagun/tetthet_plast/blob/6462452e927ec89a71a2e95fd6235b30f4981eba/plastbit.png");
 snakkeboble1 = loadImage("https://runagun.github.io/tetthet_plast/snakkeboble1.png");
 snakkeboble2 = loadImage("https://runagun.github.io/tetthet_plast/snakkeboble2.png");
 snakkeboble3 = loadImage("https://runagun.github.io/tetthet_plast/snakkeboble3.png");
