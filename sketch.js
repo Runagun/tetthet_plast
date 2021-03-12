@@ -3,7 +3,7 @@
 //VARIABLER ----------------------------------------------------- VARIABLER
 let xAkse = 480;
 let yAkse = 320;
-let variantX = 67;
+let variantX = 75;
 let variantY = 180;
 let tetthet=1;
 
@@ -19,13 +19,14 @@ let snakkeboble3;
 //SETUP --------------------------------------------------------- SETUP
 function setup() {
    createCanvas(800, 600);
+   background(100);
    
 //BILDER2 ------------------------------------------------------- BILDER2
-bakgrunn = loadImage('bakgrunn1.png');
-plastbit = loadImage('plastbit.png');
+bakgrunn = loadImage("bakgrunn1.png");
+plastbit = loadImage("plastbit.png");
 snakkeboble1 = loadImage("snakkeboble1.png");
-snakkeboble2 = loadImage("https://runagun.github.io/tetthet_plast/snakkeboble2.png");
-snakkeboble3 = loadImage("https://runagun.github.io/tetthet_plast/snakkeboble3.png");
+snakkeboble2 = loadImage("snakkeboble2.png");
+snakkeboble3 = loadImage("snakkeboble3.png");
 }
 
 //DRAW ---------------------------------------------------------- DRAW
@@ -37,8 +38,6 @@ function draw() {
    if (tetthet > 1) { synkNed(); }
    plasten();
    vann();
-   fill(255,0,0);
-   ellipse(400,300,50,50);
 }
 
 //VANN ---------------------------------------------------------- VANN
@@ -54,8 +53,8 @@ function plasten() {
    image(snakkeboble3, xAkse+47, yAkse-13);
    textSize(15);
    fill(0);
-   text("Tetthet: ", xAkse+83, yAkse+15);
-   text(tetthet, xAkse+138, yAkse+15); 
+   text("Tetthet: ", xAkse+88, yAkse+15);
+   text(tetthet, xAkse+146, yAkse+15); 
 }
 
 //FLYTOPP ------------------------------------------------------- FLYTOPP
@@ -75,7 +74,7 @@ function synkNed() {
       
 //PRESSKEY ------------------------------------------------------ PRESSKEY
 function pressKey() {
-    if(keyPressed == true) {
+    if(keyIsPressed == true) {
     if(key == '0') {tetthet = 1;}
     if(key == '1') {tetthet = 0.9;}
     if(key == '2') {tetthet = 1.3;}
@@ -96,8 +95,9 @@ function tekst() {
    textSize(15);
    fill(0);
    text("Her er en plastbit.", variantX, variantY+160); 
-   text("Velg en polymer og se", variantX, variantY+180); 
-   text("om jeg flyter eller synker.", variantX, variantY+200); 
+   text("Velg en polymer med ", variantX, variantY+180); 
+   text("nummertastene, og se", variantX, variantY+200);
+   text("om den flyter eller synker.", variantX, variantY+220);
 
   text("0. Nullstill", variantX, variantY); 
    text("1. PP, polypropanol", variantX, variantY+20); 
