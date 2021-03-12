@@ -22,11 +22,11 @@ function setup() {
    background(100);
    
 //BILDER2 ------------------------------------------------------- BILDER2
-bakgrunn = loadImage("bakgrunn1.png");
-plastbit = loadImage("plastbit.png");
-snakkeboble1 = loadImage("snakkeboble1.png");
-snakkeboble2 = loadImage("snakkeboble2.png");
-snakkeboble3 = loadImage("snakkeboble3.png");
+bakgrunn = loadImage("https://runagun.github.io/tetthet_plast/bakgrunn1.png");
+plastbit = loadImage("https://runagun.github.io/tetthet_plast/plastbit.png");
+snakkeboble1 = loadImage("https://runagun.github.io/tetthet_plast/snakkeboble1.png");
+snakkeboble2 = loadImage("https://runagun.github.io/tetthet_plast/snakkeboble2.png");
+snakkeboble3 = loadImage("https://runagun.github.io/tetthet_plast/snakkeboble3.png");
 }
 
 //DRAW ---------------------------------------------------------- DRAW
