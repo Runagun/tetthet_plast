@@ -24,7 +24,7 @@ function setup() {
 //BILDER2 ------------------------------------------------------- BILDER2
 bakgrunn = loadImage('bakgrunn1.png');
 plastbit = loadImage('plastbit.png');
-snakkeboble1 = loadImage("https://runagun.github.io/tetthet_plast/snakkeboble1.png");
+snakkeboble1 = loadImage("snakkeboble1.png");
 snakkeboble2 = loadImage("https://runagun.github.io/tetthet_plast/snakkeboble2.png");
 snakkeboble3 = loadImage("https://runagun.github.io/tetthet_plast/snakkeboble3.png");
 }
@@ -38,6 +38,8 @@ function draw() {
    if (tetthet > 1) { synkNed(); }
    plasten();
    vann();
+   fill(255,0,0);
+   ellipse(400,300,50,50);
 }
 
 //VANN ---------------------------------------------------------- VANN
